@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #222222;
+}
+
+form {
+    max-width: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    
+}
+
+form li {
+    list-style: none;
+}
+
+form li + li {
+    margin-top: 1rem;
+}
+
+form li input {
+    display: block;
+    width: 100%;
+    border: 1px solid #5555;
+    outline: none;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+form li label {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+
+form button {
+    width: 100%;
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 1px solid #555;
+    background: white;
+    box-shadow: 1px 5px 10px rgba(0,0,0,.1);
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .2s;
+    margin-top: 2rem;
+}
+
+form button:hover{
+    background: #eee;
+}
+
+form .error_info {
+    color: red;
+    width: 100%;
+    display: block;
+    margin: .25rem 1rem 0;
+    text-align: center;
+}
+
+
